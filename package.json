@@ -1,0 +1,14 @@
+{
+  "name": "magic-sauce-test-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "refresh": "rm -rf node_modules && yarn",
+    "ms": "magic-sauce"
+  },
+  "dependencies": {
+    "magic-sauce": "file:../"
+  }
+}
