@@ -1,1 +1,1 @@
-console.log('First entry')
+console.log('Second entry')
