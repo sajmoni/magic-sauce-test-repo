@@ -5,10 +5,10 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "refresh": "rm -rf node_modules && yarn",
+    "refresh": "rm -rf node_modules && yarn cache clean && yarn --no-lockfile",
     "ms": "magic-sauce"
   },
   "dependencies": {
-    "magic-sauce": "file:../"
+    "magic-sauce": "file:../magic-sauce.tgz"
   }
 }
